@@ -119,7 +119,7 @@ $(document).ready(function () {
           confirmButtonColor: "#83d0c9",
         
         });
-   
+   $('#bg').css('background-image','url(../img/puung2.jpg)')
 
     $("#txtReason").focus(function () {
       var handleWriteText = setInterval(function () {
