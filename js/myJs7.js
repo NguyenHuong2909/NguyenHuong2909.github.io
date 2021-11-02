@@ -1,6 +1,6 @@
 const textConfig = {
   text1: "He luu cô giáo Hường!",
-  text2: "Nay là sinh nhật cô giáo mình có món quà gửi đến bhx",
+  text2: "Nay là sinh nhật cô giáo mình có lời chúc gửi đến cô giáo <3",
   text3: "Chúc cô giáo xinh đẹp , trưởng thành hạnh phúc bên gia đình",
   text4: "Hường có bị hâm không?",
   text5: "không nha???",
@@ -10,7 +10,7 @@ const textConfig = {
   text9: "Vì cậu đẹp try vlllll",
   text10: "Lại chuẩn quá",
   text11:
-    "bạn đẹp trai vl",
+    "bạn đẹp trai vlllll",
   text12: "Okii lunn <3",
 };
 
@@ -131,5 +131,6 @@ $(document).ready(function () {
         clearInterval(handleWriteText);
       });
     });
+    $('#yes').hide()
   });
 });
