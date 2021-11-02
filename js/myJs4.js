@@ -16,7 +16,8 @@ const textConfig = {
 
 $(document).ready(function () {
   // process bar
-  
+  var audio2 = new Audio("sound/sound.mp3");
+  audio2.play();
   setTimeout(function () {
     firstQuestion();
     $(".spinner").fadeOut();
