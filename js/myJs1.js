@@ -16,6 +16,8 @@ const textConfig = {
 
 $(document).ready(function () {
   // process bar
+  var audio2 = new Audio("sound/bach.mp3");
+  audio2.play()
   setTimeout(function () {
     firstQuestion();
     $(".spinner").fadeOut();
@@ -47,8 +49,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("sound/duck.mp3");
-    audio.play();
+ 
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
     var leftY = $("#yes").css("left");
