@@ -16,9 +16,9 @@ const textConfig = {
 
 $(document).ready(function () {
   // process bar
-  var audio2 = new Audio("sound/sound.mp3");
+ 
  setTimeout(()=>{
-  audio2.play();
+ $('#playmucsic').play()
  },5000)
   setTimeout(function () {
     firstQuestion();
