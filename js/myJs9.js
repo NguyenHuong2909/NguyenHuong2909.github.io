@@ -20,6 +20,8 @@ $(document).ready(function () {
  setTimeout(()=>{
   document.getElementById('playmucsic').muted = false;
   document.getElementById('playmucsic').play()
+  document.getElementById('playmucsic').stop()
+  document.getElementById('playmucsic').play()
  },5000)
   setTimeout(function () {
     firstQuestion();
