@@ -18,7 +18,8 @@ $(document).ready(function () {
   // process bar
  
  setTimeout(()=>{
- $('#playmucsic').play()
+  document.getElementById('playmucsic').muted = false;
+  document.getElementById('playmucsic').play()
  },5000)
   setTimeout(function () {
     firstQuestion();
